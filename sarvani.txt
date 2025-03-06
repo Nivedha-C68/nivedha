@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #e9f7e7;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <caption><strong>Weekly Time Table</strong></caption>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>8:00 AM - 9:00 AM</td>
+                <td>Math</td>
+                <td>English</td>
+                <td>Science</td>
+                <td>History</td>
+                <td>Physical Education</td>
+            </tr>
+            <tr>
+                <td>9:00 AM - 10:00 AM</td>
+                <td>Biology</td>
+                <td>Math</td>
+                <td>History</td>
+                <td>English</td>
+                <td>Math</td>
+            </tr>
+            <tr>
+                <td>10:00 AM - 11:00 AM</td>
+                <td>History</td>
+                <td>Biology</td>
+                <td>Physical Education</td>
+                <td>Math</td>
+                <td>Science</td>
+            </tr>
+            <tr>	
+                <td>11:00 AM - 12:00 PM</td>
+                <td>Science</td>
+                <td>History</td>
+                <td>Math</td>
+                <td>Biology</td>
+                <td>English</td>
+            </tr>
+            <tr>
+                <td>12:00 PM - 1:00 PM</td>
+                <td>Physical Education</td>
+                <td>Science</td>
+                <td>English</td>
+                <td>Physical Education</td>
+                <td>History</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
